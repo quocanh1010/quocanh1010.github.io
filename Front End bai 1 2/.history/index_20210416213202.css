@@ -1,0 +1,19 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.approval {
+    width: 50%;
+    /* flex-direction: column; */
+}
+
+.date {
+    width: 50%;
+    /* flex-direction: column; */
+}
+
+.footer {
+    display: flex;
+}
