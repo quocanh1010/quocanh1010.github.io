@@ -1,0 +1,148 @@
+.header1{
+  background-color: aqua;
+  padding:30px;
+  margin: 3px;
+}
+.items1{
+  width: 45%;
+  background-color:orange;
+  margin: 1px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar{
+  width: 100%;
+  display: flex;
+}
+.wrap1{
+  box-sizing: border-box;
+  margin: 3px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-left: 40px;
+}
+.footer1{
+  background-color: darkblue;
+  padding: 25px;
+}
+
+/* hình2................... */
+.header2{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border:1px solid black;
+  margin: 30px 0px 3px 0px;
+}
+#lay-out2{
+  color: green;
+}
+.nav2{
+  padding: 30px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+  height: 140px;
+}
+.maincontent{
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 6;
+  height: 140px;
+}
+.body2{
+  display: flex;
+  padding: 3px;
+}
+.footer2{
+  padding: 30px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* hinh3................... */
+#lay-out3{
+  background-color: skyblue;
+  height: auto;
+  margin-top: 30px;
+}
+.header3{
+  padding: 20px;
+  margin: 20px 20px 0px 20px;
+  background-color: green;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.body3{
+  display: flex;
+}
+.aside{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: greenyellow;
+  flex-grow: 3;
+  margin: 20px;
+  height: 150px;
+}
+.items3{
+  display:flex;
+  background-color: yellow;
+  padding:20px;
+  margin: 10px;
+}
+.wrap3{
+  display: flexbox;
+  /* justify-content: space-between; */
+  background-color: orange;
+  flex-grow: 7;
+  height: 150px;
+  margin: 20px 20px 20px 0px;
+}
+.article{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+}
+.footer3{
+  padding: 20px;
+  margin: 0px 20px 20px 20px;
+  background-color: green;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.test1 {
+  width: 100%;
+  height: 50%;
+
+}
+.test2 {
+  height: 50%;
+  display:flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-grow: 7;
+  width: 100%;
+}
+.all{
+  width: 60%;
+}

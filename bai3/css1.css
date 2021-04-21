@@ -1,0 +1,48 @@
+.item{
+  width: 31.3%;
+    width: 33,3%;
+    background-color: blue;
+    margin: 3px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap{
+  box-sizing: border-box;
+  margin: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 7;
+}
+.all{
+  display: flex;
+}
+.aside{
+  flex-grow: 3;
+  background-color: darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header{
+  padding:30px;
+  display:flex;
+  justify-content: center;
+  margin:10px;
+  background-color: gray;
+}
+.navi{
+  padding:10px;
+  display: flex;
+  justify-content: center;
+  margin:10px;
+  background-color: purple;
+}
+.footer{
+  padding:20px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  background-color: brown;
+}
