@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li.main-items:hover {
+    color:black;
+    
+}
+.relative{
+    position: relative;
+}
+.d-flex{
+    display: flex;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all{
+    height: 2000px;
+    background:rgb(235, 176, 186); 
+}
+.name{
+    height: 200px;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-items{
+    list-style: none;
+    width: fit-content;
+    min-width: 190px;
+    height: 50px;
+    color:black;
+    position: relative;
+}
+
+.main-items:hover {
+    background-color:whitesmoke;
+}
+
+li.main-items:hover .main-submenu{
+    display: block;
+}
+li{
+    list-style: none;
+}
+.main-menu{
+    display: flex;
+    top: 0;
+    position: sticky;
+    align-content: center;
+}
+.main-submenu{
+    position: absolute;
+    top:50px;
+    background-color: rgb(196, 240, 224);
+    min-width: 100px;
+    display: none;
+    width: 188px;
+}
+.sub-menu{
+    height: 50px;
+}
+.Food{
+    position: absolute;
+    width: fit-content;
+    background-color: rgb(196, 240, 224);
+    top: 70px;
+    left: 175px;
+    min-width: 100px;
+    display: none;
+    width: 177px;
+}
+.Food1:hover {
+    color: white;
+}
+.Food1{
+    height: 50px;
+    color: black;
+}
+li.sub-menu:hover .Food{
+    display: block;
+}
+li.sub-menu:hover {
+    color: white;
+}
+ul.main-menu {
+    width: 177px;
+    height: 50px;
+    background-color: rgb(196, 240, 224);
+    transition: width 1s;
+  }
+  
+ul.main-menu:hover {
+    width: 1500px;
+    cursor: pointer;
+}
+ 
+
+
+.Footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;  
+}
