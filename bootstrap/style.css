@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li.main-items:hover {
+    color:black;
+    
+}
+.relative{
+    position: relative;
+}
+.d-flex{
+    display: flex;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all{
+    height: 1000px;
+    max-width: 1700px;
+    width: 100%;
+    background-color:white;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* form {
+    background-color: #ff7a59;
+    color: #fff;
+}
+  
+input {
+    height: 50px;
+    border: none;
+    outline: 0 !important;
+    background: rgba(255,255,255,.25);
+    color: #fff;} */
+
+.main-items{
+    list-style: none;
+    width: fit-content;
+    min-width: 190px;
+    height: 50px;
+    color:black;
+    position: relative;
+}
+
+.main-items:hover {
+    background-color:rgb(224, 224, 184);
+}
+
+li.main-items:hover .main-submenu{
+    display: block;
+}
+li{
+    list-style: none;
+}
+.main-menu{
+    display: flex;
+    top: 0;
+    align-content: center;
+}
+.main-submenu{
+    position: absolute;
+    top:50px;
+    background-color: yellow;
+    min-width: 100px;
+    display: none;
+    width: 188px;
+}
+.sub-menu{
+    height: 50px;
+}
+.Food{
+    position: absolute;
+    width: fit-content;
+    background-color: yellow;
+    top: 70px;
+    left: 175px;
+    min-width: 100px;
+    display: none;
+    width: 177px;
+}
+.Food1:hover {
+    color: white;
+}
+.Food1{
+    height: 50px;
+    color: black;
+}
+li.sub-menu:hover .Food{
+    display: block;
+}
+li.sub-menu:hover {
+    color: white;
+}
+ul.main-menu {
+    width: 177px;
+    height: 50px;
+    background-color: yellow;
+    transition: width 1s;
+  }
+  
+ul.main-menu:hover {
+    width: 1500px;
+    cursor: pointer;
+}
+.Footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 30px; 
+}
+.name img{
+    width: 100%;
+}
+.name{
+    width: 10%;
+}
+.my-menu{
+    width: 90%;
+}
+.body img{
+    width: 100%;
+}
+.my-body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.right{
+    width: 70%;
+}
+.left{
+    width: 30%;
+}
+.my-right img{
+    width: 100%;
+}
+.left{
+    display: flex;
+}
+.body{
+    margin: 30px;
+}
+@media screen and (max-width: 768px){
+    .my-body{
+        display: unset;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .my-right{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image-right{
+        width: 50%;
+    }
+    .image-left{
+        width: 50%;
+    }
+    .header{
+        display: unset;
+    }
+}
+@media screen and (max-width:375px) {
+    .my-body{
+        display: unset;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .my-rigt{
+        display: unset;
+    }
+    .image-right{
+        width: 100%;
+    }
+    .image-left{
+        width: 100%;
+    }
+}
+
+
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background:black;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+footer .container .noi-dung{
+    margin-right: 30px;
+}
+footer  .container .noi-dung.about{
+    width:40%;
+}
+footer .container .noi-dung.about h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+footer .container .noi-dung.about h2:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+footer .container .noi-dung.about p{
+    color: #999;
+}
+.links h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.links h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.links h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+.links{
+   position: relative;
+   width: 25%;
+}
+.links ul li{
+    list-style: none;
+}
+.links ul li a{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.links ul li a:hover{
+    color: #fff;
+}
+.contact h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.contact h2::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+.contact{
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+.contact .info{
+    position: relative;
+}
+.contact .info li{
+    display: flex;
+    margin-bottom: 16px;
+}
+.contact .info li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.contact .info li span{
+    color: #999;
+}
+.contact .info li a{
+    color: #999;
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin-top:16px;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+.btn--primary {
+    background: #222;
+    color: #fff;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    padding: 8px 24px;
+}
+.btn--primary:hover {
+    background: #f00;
+}
+.btn--primary:active {
+    background: #f00;
+    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, .2);
+}
+.form__field {
+    width: 90%;
+    background: #fff;
+    color: #a3a3a3;
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+    border: 0;
+    outline: 0;
+    padding: 8px 4px;
+}
