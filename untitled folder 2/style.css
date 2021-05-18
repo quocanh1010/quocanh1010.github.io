@@ -1,0 +1,161 @@
+.wrap{
+    max-width: 1920px;
+}
+.wrap-menu{
+    display: flex;
+    padding: 28px 10%;
+}
+
+
+.left{
+    width: 50%;;
+}
+.left img{
+    width: 75px;
+    height: 19px;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #333333;
+    font-family: YoonGothic700-50;
+}
+.avatar{
+    cursor: pointer;
+}
+.top-image .row .item-image{
+    margin: 0 0.5%;
+}
+.top-image .row .item-image img{
+    width: 100%;
+}
+.top-image{
+    padding: 0 18%;
+}
+
+.banner{
+    background-image: url(https://cf.bstatic.com/data/xphoto/1182x887/203/20399361.jpg?size=S);
+    height: 800px;
+    background-size: cover;
+}
+.title{
+    text-align: left;
+    font-family: YoonGothic700-70;
+    font-size: 25px;
+    color: #333333;
+    margin-top: 15px;
+}
+.sub-title{
+    font-family: YoonGothic700-50;
+    font-size: 16px;
+    color: #707070;
+    text-align: left;
+}
+.title-banner{
+    font-family: YoonGothic700-80;
+    font-size: 50px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 384px;
+    padding-left: 330px;
+    padding-right: 330px;
+}
+.sub-title-banner{
+    font-family: YoonGothic700-50;
+    font-size: 25px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.action{
+    font-family: YoonGothic700-70;
+    font-size: 15px;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 64px 500px 0;
+    padding: 18px 61px 18px 62px;
+    border: solid 1px #ffffff;
+}
+.text-main-title{
+    font-family: YoonGothic700-70;
+    font-size: 32px;
+    color: #333333;
+    padding-top: 130px;
+    text-align: center;
+}
+.sub-main-title{
+    font-family: YoonGothic700-50;
+    font-size: 18px;
+    color: #707070;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.under-image .row .under-image img{
+    width: 100%;
+}
+.under-image .row .under-image{
+    margin: 0 0.5%;
+}
+
+.under-title{
+    font-family: YoonGothic700-70;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333333;
+    padding-top: 60px;
+}
+.under-sub-title{
+    font-family: YoonGothic700-50;
+    font-size: 18px;
+    color: #707070;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.under-image-title{
+    font-family: YoonGothic700-70;
+    font-size: 15px;
+    text-align: left;
+    color: #333333;
+}
+.under-image-sub-title{
+    font-family: YoonGothic700-50;
+    font-size: 10px;
+    text-align: left;
+    color: #333333;
+}
+.time{
+    font-family: YoonGothic700-70;
+    font-size: 10px;
+    text-align: left;
+    color: #ff9e5c;
+}
+.under-image{
+    background-image: url(./img/png/DSC08338_2.png);
+    background-size:cover;
+    margin-top: 80px;
+    /* opacity: 0.8; */
+}
+.my-row{
+    padding: 40px 230px 80px 230px;
+}
+

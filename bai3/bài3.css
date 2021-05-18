@@ -19,21 +19,16 @@ li.main-items:hover {
     align-items: center;
 }
 .all{
-    height: 3000px;
-    background:rgb(235, 176, 186);
+    height: 1000px;
     max-width: 1700px;
     width: 100%;
-}
-.name{
-    height: 100px;
-    font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
 }
 .header{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
-form {
+/* form {
     background-color: #ff7a59;
     color: #fff;
 }
@@ -43,14 +38,7 @@ input {
     border: none;
     outline: 0 !important;
     background: rgba(255,255,255,.25);
-    color: #fff;
-    .box-shadow(none);
-    width: 300px;
-}
-/* input::-webkit-input-placeholder
-    color: #fff;
-    .text-semi-bold;
-} */
+    color: #fff;} */
 
 .main-items{
     list-style: none;
@@ -62,7 +50,7 @@ input {
 }
 
 .main-items:hover {
-    background-color:whitesmoke;
+    background-color:rgb(224, 224, 184);
 }
 
 li.main-items:hover .main-submenu{
@@ -74,13 +62,12 @@ li{
 .main-menu{
     display: flex;
     top: 0;
-    /* position: sticky; */
     align-content: center;
 }
 .main-submenu{
     position: absolute;
     top:50px;
-    background-color: rgb(196, 240, 224);
+    background-color: yellow;
     min-width: 100px;
     display: none;
     width: 188px;
@@ -91,7 +78,7 @@ li{
 .Food{
     position: absolute;
     width: fit-content;
-    background-color: rgb(196, 240, 224);
+    background-color: yellow;
     top: 70px;
     left: 175px;
     min-width: 100px;
@@ -114,7 +101,7 @@ li.sub-menu:hover {
 ul.main-menu {
     width: 177px;
     height: 50px;
-    background-color: rgb(196, 240, 224);
+    background-color: yellow;
     transition: width 1s;
   }
   
@@ -122,123 +109,89 @@ ul.main-menu:hover {
     width: 1500px;
     cursor: pointer;
 }
-.text{
-    font-size: 60px;
-    padding-top: 20px;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-
 .Footer{
     position: fixed;
     bottom: 0;
     right: 0;
     font-size: 30px; 
 }
-
-
-
-/* phan than bai */
-.main {
+.name img{
+    width: 100%;
+}
+.name{
+    width: 10%;
+}
+.my-menu{
+    width: 90%;
+}
+.body img{
+    width: 100%;
+}
+.my-body{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 170px;
 }
-
-.item {
-    width: 40%;
-    position: relative;
-    overflow: hidden;
+.right{
+    width: 70%;
 }
-
-img {
+.left{
+    width: 30%;
+}
+.my-right img{
     width: 100%;
 }
-
-.orange {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #dc1212;
-    opacity: 0;
-}
-
-.item:hover .orange {
-    animation: opacity-increa 1.5s forwards;
-}
-
-@keyframes opacity-increa {
-    0%{
-    }
-    100%{
-        opacity: 0.5;
-    }
-}
-
-.icon-top {
-    position: absolute;
-    top: 30px;
-    left: -35px;
-    font-size: 40px;
-}
-.item:hover .icon-top {
-    animation: di-tu-trai-sang 1.5s forwards;
-}
-@keyframes di-tu-trai-sang {
-    0%{
-    }
-    100%{
-        position: absolute;
-        top: 30px;
-        left: 30px;
-    }
-}
-
-/* // phan title */
-.content {
-    position: absolute;
-    bottom: -90px;
-    left: 10px;
-    color: #fff;
-    margin-bottom: 20px;
-    font-weight: 100000;
-    font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-}
-.item:hover .content {
-    animation: di-tu-duoi-len 1.5s forwards;
-}
-@keyframes di-tu-duoi-len {
-    0%{
-    }
-    100%{
-        position: absolute;
-        bottom: 10px;
-    }
-}
-.coment{
-    margin-top: 200px;
-}
-.chan-dung{
-    width: 200px;
-    height: 200px;
-}
-.useful{
-    width: 100%;
+.left{
     display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    justify-content: center;
-    align-items: center;
 }
-.chu-viet{
-    font-size: 40px;
-    font-family: 'Oswald', sans-serif;
+.body{
+    margin: 30px;
 }
+@media screen and (max-width: 768px){
+    .my-body{
+        display: unset;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .my-right{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image-right{
+        width: 50%;
+    }
+    .image-left{
+        width: 50%;
+    }
+    .header{
+        display: unset;
+    }
+}
+@media screen and (max-width:375px) {
+    .my-body{
+        display: unset;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .my-rigt{
+        display: unset;
+    }
+    .image-right{
+        width: 100%;
+    }
+    .image-left{
+        width: 100%;
+    }
+}
+
+
 footer{
     position: relative;
     width: 100%;
