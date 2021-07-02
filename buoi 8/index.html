@@ -1,104 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/index.css">
-</head>
-<body>
-    
-    <script>
-        // let banA ={
-        //     age:20,
-        //     name:'qa',
-        //     isSingle: false,
-        //     girlfriend: null,
-        //     family:{
-
-        //     }
-        // }
-        // let color = ['red','blue','yellow']
-
-        // function total(){
-        //     console.log('color :>> ', color);
-        // }
-        // total()
-        // let total = () => {
-        //     console.log('color :>> ', color);
-        // }
-        // total()
-
-        // function tra ve ket qua
-        // let total=(a,b) => {
-        //     return a + b
-        // }
-
-        //  let check_result = total(5,7)
-
-        //  console.log('check_result :>> ', check_result);
-
-        //  let name = `'techmaster'`
-
-         let name ='techmaster'
-
-         console.log(`:>>`,'I\'m' + name + 'toi rat vui gap ban' );
-
-        //  console.log(` :>>`, `i'm $(name) toi rat vui duoc gap ban`);
-
-        //  let arr = [{ name: 'qa', age:12}, 100 , 'techmaster', true, false, undefined]
+<html lang="vi">
+    <head>
+        <meta charset="utf-8">
+        <title>Ứng dụng Quiz - Kênh 49</title>
         
-        //  arr[1]
-
-        // let age=13
-
-        // let name='Linh'
-        // let tinhChuVi =(a,b) => {
-        //     return (a+b)*2
-        // }
-        // let ketQua= tinhChuVi(3,4)
-        // console.log('ketQua :>> ', ketQua);
-
-        // let checkNumber=(a) => {
-        //     if(a % 2 === 0){
-        //     console.log('chan');
-        // }else{
-        //     console.log('le');
-        // }
-        // }
-
+    </head>
+    <body>
+        <div align="center">
+            <h1>Kết quả</h1>
+            <p>Tổng điểm : 5</p>
+            <div>Điểm bạn đạt được : <span id="result"></span></div>
+        </div>
+        <script type="text/javascript">
+            var score = 0;
+            if(prompt(" Đà Lạt có bao nhiêu phường? A.12  B.11. C.13 ") == "A")
+            {
+                score +=1;
+            }
+            if(prompt(" Đà Lạt có bao nhiêu xã? A.1  B.2. C.3 ") == "B")
+            {
+                score +=1;
+            }
+            if(prompt(" Lâm Đồng có bao nhiêu thành phố? A.1  B.2. C.3 ") == "B")
+            {
+                score +=1;
+            }
+            if(prompt(" Đà Lạt trực thuộ tỉnh nào? A.Trung ương  B.bảo Lộc. C.Lâm Đồng ") == "A")
+            {
+                score +=1;
+            }
+            if(prompt(" Đà Lạt có bao nhiêu phường? A.12  B.11. C.13 ") == "A")
+            {
+                score +=1;
+            }
+            document.getElementById("result").innerHTML = "Hệ thống đang tính toán...."
+            function showanser()
+            {
+                if(score == 5)
+                {
+                    alert("Bạn về nhất");
+                    document.getElementById("result").innerHTML = score;
+                }
+                if(score == 4)
+                {
+                    alert("Bạn về nhì");
+                    document.getElementById("result").innerHTML = score;
+                }
+                if(score == 3)
+                {
+                    alert("Bạn về ba");
+                    document.getElementById("result").innerHTML = score;
+                }
+                if(score < 3)
+                {
+                    alert("Chúc may mắn lần sau!")
+                    document.getElementById("result").innerHTML = score;
+                }
+            }
+            setTimeout(showanser, 2000);
+        </script>
         
-
-        // checkNumber(7)
-
-
-
-        // let checkNumber=(a,b) =>{
-        //     if (a < b){
-        //         alert('a lon hon b')
-        //     }else if ( a===b){
-        //         alert('a bang b')    
-        //     }else{
-        //         alert('a be hon b')
-        //     }
-        // }
-
-        // checkNumber(9,7)
-
-
-        // let checkSeason=(a) =>{
-        //     if(a>=1 && a<=4){
-        //         alert('mua xuan')
-        //     }else if(a>=5 && a<=8){
-        //         alert('mua he')
-        //     }else if(a>=9  && a<=10){
-        //         alert('mua thu')
-        //     }else{
-        //         alert('mua dong')
-        //     }
-        // }
-        // checkSeason(12)
-    </script>
-</body>
+    </body>
 </html>
