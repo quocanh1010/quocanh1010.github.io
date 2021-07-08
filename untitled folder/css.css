@@ -1,12 +1,25 @@
 html,
 body {
-	height: 100%; 
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
-body {
-  background: radial-gradient(#222, #000);
+body{
+background-color:#111;	
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
-canvas {
-	display: block;
-}
+canvas{
+	flex-shrink: 0;
+	background-color:#000;
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
+	}
