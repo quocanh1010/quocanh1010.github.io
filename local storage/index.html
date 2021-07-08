@@ -4,15 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="all">
+    <div class="main-search-input">
+    <input class="input" type="text" onkeydown="onChange(event)" onblur="checkBlur()" onfocus="checkFocus()"></input>
+    </div>
+    <div class="list-history">
+        <ul id="my-list">
+            
+            
+            
+          </ul>
+    </div>      
+    </div>
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script>
-        alert('Lena dang lam gi the?')
+//         let arr=[
+//   {id:'dsa', label: 'yyy'},
+// ]
+let domUl= $('#my-list')
+const getHistoryFromLocal = () =>{
+    let data = localStorage.getItem('data-history') ? JSON.parse(localStorage.getItem('data-history')) : []
+    return data
+}
+let myTest = () => {
+    getHistoryFromLocal().forEach((item,index) =>{
+        domUl.append(`
+<li>
+          <div class = 'clock'>clock</div>
+          <div class = 'label'>
+              label</div>
+          <div class = 'bin'>Xoa</div>
+          </li>
+`);
+})}
+
+
+let searchTimer
+
+
+const onSearch = (value) =>{
+    // luu data vao local 
+   let newData = [...getHistoryFromLocal()]
+   newData.unshift(
+       {
+           id:new Date().getTime(),
+           label: value
+       }
+   )
+   localStorage.setItem('data-history', JSON.stringify(newData))
+}
+const onChange = (event) => {
+    console.log('event :>> ', event);
+    if(event.which ===13){
+        onSearch(event.target.value)
+    }
+
+//    if(searchTimer){
+//        clearTimeout(searchTimer);
+//    }
+//    searchTimer = setTimeout(() => {
+//        console.log('text :>> ');
+//    }, 2000);
+}
+const checkBlur = () => {
+  domUl.hide()
+}
+const checkFocus = () => {
+    domUl.html('')
+   myTest()
+   domUl.show()
+   
+}
+
     </script>
+    
 </body>
 </html>
