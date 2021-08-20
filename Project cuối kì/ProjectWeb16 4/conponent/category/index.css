@@ -1,0 +1,8 @@
+.item-card img {
+    width: 100%;
+}
+@media only screen and (min-width: 1025px) {
+    .width-col-cate{
+        width: 20%;
+    }
+  }

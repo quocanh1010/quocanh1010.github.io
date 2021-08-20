@@ -1,0 +1,12 @@
+
+.banner{
+    height: 89px;
+    background-color: #f8f8f8;
+    display: flex;
+}
+.banner-left{
+    display: flex;
+}
+.banner-right{
+    display: flex;
+}
