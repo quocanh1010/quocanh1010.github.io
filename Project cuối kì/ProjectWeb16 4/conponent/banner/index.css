@@ -1,9 +1,41 @@
-.main-banner{
-    display: flex;
-    margin: 50px 40px 0px 40px;
-    width: 100%;
+.row{
+    margin-top:50px;
 }
 .left-banner{
     border-top: 1px solid red;
-    width: 20%;
+    /* width: 20%; */
+}
+.left-banner div{
+    margin-top: 40px;
+}
+.center-banner{
+    margin: 40px 20px 0px 20px;
+    justify-content: center;
+    align-items: center;
+}
+.center-banner-top img{
+    height: 352px;
+    width: 100%;
+    object-fit: fill;
+}
+.center-banner-bottom{
+    display: flex;
+    margin-top: 30px;
+}
+.center-banner-bottom img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.right-banner{
+    border-top: 1px solid red;
+    /* width: 30%; */
+}
+.right-banner-items{
+    margin-top: 40px;
+}
+.right-banner-bottom img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
