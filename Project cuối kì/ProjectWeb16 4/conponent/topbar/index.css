@@ -35,5 +35,9 @@ ul.topbar-right-items li:hover{
     .topbar-right{
         display: none;
     }
+    .topbar-left{
+        justify-content: flex-start;
+        margin: 0px;
+    }
 }
 
