@@ -1,0 +1,13 @@
+.main-footer{
+    background-color: #605c5c;
+    display: flex;
+    height: auto;
+    padding: 10px 40px 0px 40px;
+}
+.footer-left{
+    width: 50%;
+}
+.footer-right{
+    width: 50%;
+    list-style: none;
+}
