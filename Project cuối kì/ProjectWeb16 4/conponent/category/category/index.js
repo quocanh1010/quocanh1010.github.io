@@ -108,7 +108,7 @@ const showProduct = (product, idShow, name) => {
     product.forEach((item, index) => {
         showItem.append(
             `
-                <div onclick="setLocal('${index}, ${name}')" class="col-xl-3 col-sm-6 col-md-3 width-col-cate">
+                <div class="col-xl-3 col-sm-6 col-md-3 width-col-cate">
                
                     <div class="item-card">
                     <div class="image">
@@ -116,7 +116,7 @@ const showProduct = (product, idShow, name) => {
                     </div>
                     <div class="name">${item.name}</div>
                     <div class="price">${item.price}</div>
-                    <div class="more">${item.more}</div>
+                    <div  onclick="setLocal('${index}, ${name}')" class="more">${item.more}</div>
                 </div>
                 
 
