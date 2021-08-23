@@ -5,6 +5,7 @@
 .row{
     border-top: 1px solid black;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 .left-detail{
     margin-top: 20px;

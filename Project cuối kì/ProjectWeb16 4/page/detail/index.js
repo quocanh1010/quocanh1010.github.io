@@ -1,6 +1,6 @@
 let default_data = {
     id: 1,
-    img: '../../category/category/img/image 31.png',
+    img: '../img/image 31.png',
     name: 'Áo Bóng Đá Argentina',
     price: '80.000đ',
     more:'Xem chi tiết >',
@@ -9,17 +9,6 @@ let default_data = {
 let data_detail = JSON.parse(localStorage.getItem('detail-data')) || default_data
 let wrap_detail = $('#wrap-detail')
 
-const renderImage = () => {
-    let str = ""
-    if(data_detail.imgs.length > 0) {
-        data_detail.imgs.forEach((item, index) => {
-            str += `
-            <img src="${item}" alt="">
-            `
-        });
-    }
-    return str
-}
 wrap_detail.append(`
 <div class="container">
 <div class="row">
