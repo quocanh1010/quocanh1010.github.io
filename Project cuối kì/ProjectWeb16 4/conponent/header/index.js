@@ -22,7 +22,7 @@ header.append(`
             <li class="item-menu">Đức</li>
             <li class="item-menu">Hậu Trường</li>
             <li class="item-menu">Photo</li>
-            <li class="item-menu">Sản Phẩm</li>
+            <li class="item-menu"><div onclick="myFunction()">Sản Phẩm</div></li>
         </ul>
     </div>
     
@@ -73,3 +73,6 @@ $(document).click((event)=> {
         isOpen = false
     } 
 })
+function myFunction() {
+    location.replace("file:///Users/buiquocanh/Documents/GitHub/quocanh1010.github.io/Project%20cuo%CC%82%CC%81i%20ki%CC%80/ProjectWeb16%204/conponent/category/category/index.html")
+  }

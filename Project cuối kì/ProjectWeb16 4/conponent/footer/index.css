@@ -1,8 +1,9 @@
 .main-footer{
-    background-color: #555353;
+    background-color: #424040;
     display: flex;
     height: auto;
     padding: 10px 40px 0px 40px;
+    border-top: 5px solid red;
 }
 .footer-left{
     width: 50%;
@@ -10,4 +11,16 @@
 .footer-right{
     width: 50%;
     list-style: none;
+}
+@media only screen and (max-width: 767px) {
+    .main-footer{
+        display:block;
+    }
+    .footer-left{
+        width: 100%;
+        margin-left: 25px;
+    }
+    .footer-right{
+        width: 100%;
+    }
 }

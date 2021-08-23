@@ -1,0 +1,48 @@
+.left-detail img{
+    height: 453px;
+    width: 274;
+}
+.row{
+    border-top: 1px solid black;
+    margin-top: 40px;
+}
+.left-detail{
+    margin-top: 20px;
+    padding-left: 80px;
+}
+.right-detail{
+    margin-top: 20px;
+}
+.stars{
+    display: flex;
+    margin-top: 30px;
+}
+/* .right-detail div {
+    margin-top: 30px;
+} */
+.name-product{
+    font-size: 22px;
+    color: red;
+}
+.size{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.size-items{
+    background-color: yellow;
+    padding: 20px;
+   
+}
+.clickbuy{
+    padding: 30px;
+    background-color:red;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price{
+    margin-top: 30px;
+}
