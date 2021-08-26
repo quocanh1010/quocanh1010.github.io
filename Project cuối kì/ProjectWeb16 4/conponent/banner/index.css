@@ -52,3 +52,66 @@
     border:2px solid #fff;
     width: 100%;
 }
+.items-content{
+    display: flex;
+    border-top: 1px solid gray;
+    margin: 0px 30px 30px 0px;
+}
+.items-content img{
+    margin: 40px 40px 0px 0px;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+    border:2px solid #fff;
+    
+
+}
+.items-content div{
+    justify-content: center;
+    align-items: center;
+    margin: 40px 40px 0px 0px;
+}
+.main-content{
+    margin: 50px 70px 0px 70px;
+    border-top: 1px solid red;
+    color: red;
+    font-size: 24px;
+}
+.right-banner-items div{
+    margin-top: 20px;
+}
+.center-banner-bottom div div{
+    margin-top: 20px;
+}
+.center-banner-top div{
+    margin-top: 20px;
+}
+.introduce{
+    border-top: 1px solid red;
+    color: red;
+    font-size: 24px;
+    margin-top: 50px;
+}
+.left-introduce img{
+    width: 100%;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+.left-introduce div{
+    text-transform: uppercase; font-weight:bold; font-size:20px;
+    margin-top: 20px;
+}
+
+.right-introduce-items{
+    display: flex;
+}
+.right-introduce img{
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+    margin: 0px 40px 0px 10px;
+}

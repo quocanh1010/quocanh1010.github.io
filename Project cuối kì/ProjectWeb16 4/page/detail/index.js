@@ -14,8 +14,14 @@ wrap_detail.append(`
 <div class="row">
 <div class="col-12 col-lg-6 col-sm-12">
     <div class="left-detail">
-        <img src="./img/image 31.png" alt="">
-        <div>Click Để Phóng To Ảnh</div>
+    <div class="container">
+    <input type="checkbox" id="zoomCheck">
+    <label for="zoomCheck">
+    <img src="./img/image 31.png" alt="">
+    </label>
+  </div>
+        <div style="margin-left:20px;">
+        <i class="fas fa-search-plus"></i>Click Vào Ảnh Để Phóng To</div>
     </div>
 </div>
     <div class="col-12 col-lg-6 col-sm-12">

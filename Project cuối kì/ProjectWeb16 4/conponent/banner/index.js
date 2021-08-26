@@ -38,4 +38,82 @@ banner.append(`
 </div></div>
 </div>
 </div>
+
+<div class="main-content">Tin Mới Nhất</div>
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-12 col-lg-6 col-md-6">
+        <div class="left-content">
+            <div class="items-content">
+                <img src="./img/Rectangle 52.png" alt="">
+                <div>Arsenal quyết giành mục tiêu của Man United</div>
+            </div>
+            <div class="items-content">
+                <img src="./img/Rectangle 55.png" alt="">
+                <div>Chelsea nhanh chóng hoàn tất HĐ thứ 2</div>
+            </div>
+            <div class="items-content">
+                <img src="./img/Rectangle 54.png" alt="">
+                <div>Đội hình Arsenal đấu Tottenham : Lần đầu cho Ben White</div>
+            </div>
+            <div class="items-content">
+                <img src="./img/Rectangle 53.png" alt="">
+                <div>Liverpool dự chi 60 triệu bảng cho mục tiêu hàng công</div>
+            </div>
+            <div class="items-content">
+                <img src="./img/Rectangle 73.png" alt="">
+                <div>Inter nhắm tiền đạo MU thay vị trí Lukaku</div>
+                </div>
+
+        </div></div>
+        <div class="col-sm-12 col-lg-6 col-md-6">
+            <div class="right-content">
+                <div class="items-content">
+                    <img src="./img/Rectangle 70.png" alt="">
+                    <div>Sao thất sủng Liverpool sẽ được giải thoát ?</div>
+                </div>
+                <div class="items-content">
+                    <img src="./img/Rectangle 69.png" alt="">
+                    <div>Thắng đậm Everton cho MU câu trả lời về tân binh thứ 4</div>
+                </div>
+                <div class="items-content">
+                    <img src="./img/Rectangle 72.png" alt="">
+                    <div>Người đại diện gõ cửa, MU tiến gần tân binh thứ 4</div>
+                </div>
+                <div class="items-content">
+                    <img src="./img/Rectangle 71.png" alt="">
+                    <div>Mourinho bị đuổi khỏi sân khi AS Roma ua 2-5</div>
+                </div>
+                <div class="items-content">
+                    <img src="./img/Rectangle 68.png" alt="">
+                    <div>Huỷ diệt Everton, MU tìm được bộ đôi trong mơ</div>
+                    </div>
+                
+            </div>
+            </div>
+            <div class="introduce">Bóng Đá Anh</div>
+            <div class="container" style="margin-bottom:40px">
+                <div class="row">
+                    <div class="col-xl-8 col-lg-12">
+                        <div class="left-introduce">
+                            <img src="./img/Rectangle 63.png" alt="">
+                            <div>Peter O'Rourke xác nhận: Man Utd là lựa chọn duy nhất của ngôi sao 24 tuổi</div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-12">
+                        <div class="right-introduce">
+                            <div class="right-introduce-items" ><img src="./img/Rectangle 64.png" alt="">
+                            <div>3 cầu thủ MU thi đấu nổi bật trên trận thắng Everton</div></div>
+                            <div class="right-introduce-items" style="margin-top:40px"><img src="./img/Rectangle 67.png" alt="">
+                            <div>Kloop công khai vấn đề, Thiago thừa nhận sự thật</div></div>
+                            <div class="right-introduce-items" style="margin-top:40px"><img src="./img/Rectangle 66.png" alt="">
+                            <div>Silva và Jorginho khiến Tuchel phá lên cười vì 1 điều đặc biệt</div></div>
+                            <div class="right-introduce-items" style="margin-top:40px"><img src="./img/Rectangle 65.png" alt="">
+                            <div>Arsenal nhận cú hích từ đá tảng 23 tuổi</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
 `)
