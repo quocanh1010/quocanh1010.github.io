@@ -36,6 +36,7 @@
     -webkit-box-shadow: 10px 10px 5px #ccc;
     -khtml-box-shadow: 10px 10px 5px #ccc;
     border:2px solid #fff;
+    width: 100%;
 }
 .right-banner{
     border-top: 1px solid red;
@@ -73,7 +74,7 @@
     margin: 40px 40px 0px 0px;
 }
 .main-content{
-    margin: 50px 70px 0px 70px;
+    margin:50px 70px 0px 70px;
     border-top: 1px solid red;
     color: red;
     font-size: 24px;
@@ -114,4 +115,14 @@
     -webkit-box-shadow: 10px 10px 5px #ccc;
     -khtml-box-shadow: 10px 10px 5px #ccc;
     margin: 0px 40px 0px 10px;
+}
+@media only screen and (max-width: 768px) {
+    .main-content{
+        margin: 50px 40px 0px 40px;
+    }
+}
+@media only screen and (max-width: 610px) {
+    .main-content{
+        margin: 50px 20px 0px 30px;
+    }
 }

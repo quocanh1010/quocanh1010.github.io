@@ -42,7 +42,7 @@ banner.append(`
 <div class="main-content">Tin Mới Nhất</div>
     <div class="container">
         <div class="row">
-        <div class="col-sm-12 col-lg-6 col-md-6">
+        <div class="col-xl-6 col-lg-12">
         <div class="left-content">
             <div class="items-content">
                 <img src="./img/Rectangle 52.png" alt="">
@@ -66,7 +66,7 @@ banner.append(`
                 </div>
 
         </div></div>
-        <div class="col-sm-12 col-lg-6 col-md-6">
+        <div class="col-xl-6 col-lg-12">
             <div class="right-content">
                 <div class="items-content">
                     <img src="./img/Rectangle 70.png" alt="">
