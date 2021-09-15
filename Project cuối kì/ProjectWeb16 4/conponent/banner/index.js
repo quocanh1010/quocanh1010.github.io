@@ -5,11 +5,11 @@ banner.append(`
 <div class="row">
     <div class="col-sm-3 col-md-2">
 <div class="left-banner"><div style="color: red; font-size: 24px;">Tin Nóng</div>
-    <div style="background-color: #e5e5e5;">Chelsea kiểm tra y tế, ra mắt bản HĐ đắt kỷ lục trong vòng 24h</div>
-    <div style="background-color: #c4c4c4;">Người đại diện gõ cửa, Man Utd tiến gần chữ ký thứ 4</div>
-    <div style="background-color: #e5e5e5;">Xác nhận đối thủ đề nghị ký HĐ, Arsenal nguy cơ mất chữ ký chất lượng</div>
-    <div style="background-color:#c4c4c4;">Arsenal đưa kẻ thừa PSG vào tầm ngắm</div>
-    <div style="background-color: #e5e5e5;">Silva và Jorginho khiến Tuchel phá lên cười vì 1 điều đặc biệt</div></div>
+    <div class="items-left-banner">Chelsea kiểm tra y tế, ra mắt bản HĐ đắt kỷ lục trong vòng 24h</div>
+    <div class="items-left-banner">Người đại diện gõ cửa, Man Utd tiến gần chữ ký thứ 4</div>
+    <div class="items-left-banner">Xác nhận đối thủ đề nghị ký HĐ, Arsenal nguy cơ mất chữ ký chất lượng</div>
+    <div class="items-left-banner">Arsenal đưa kẻ thừa PSG vào tầm ngắm</div>
+    <div class="items-left-banner">Silva và Jorginho khiến Tuchel phá lên cười vì 1 điều đặc biệt</div></div>
 
 </div>
 <div class="col-sm-9 col-md-8">

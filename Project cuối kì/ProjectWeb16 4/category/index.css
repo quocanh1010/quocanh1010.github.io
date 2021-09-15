@@ -9,12 +9,19 @@
 .name-category{
     font-size: 22px;
     border-top: 2px solid black;
-    margin: 10px 20px 0px 20px;
+    margin: 60px 20px 0px 20px;
     color: red;
 }
 .item-card{
     margin:40px 0px 40px 0px;
+    background-color:gray;
 }
 .more:hover{
     cursor: pointer;
+    color: red;
+}
+@media only screen and (max-width: 572px) {
+    .item-card{
+        margin: 40px 40px 0px 40px;
+    }
 }

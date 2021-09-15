@@ -17,11 +17,7 @@
     height: 352px;
     width: 100%;
     object-fit: fill;
-    box-shadow: 10px 10px 5px #ccc;
-    -moz-box-shadow: 10px 10px 5px #ccc;
-    -webkit-box-shadow: 10px 10px 5px #ccc;
-    -khtml-box-shadow: 10px 10px 5px #ccc;
-    border:2px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 .center-banner-bottom{
     display: flex;
@@ -31,12 +27,8 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    box-shadow: 10px 10px 5px #ccc;
-    -moz-box-shadow: 10px 10px 5px #ccc;
-    -webkit-box-shadow: 10px 10px 5px #ccc;
-    -khtml-box-shadow: 10px 10px 5px #ccc;
-    border:2px solid #fff;
-    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    /* width: 100%; */
 }
 .right-banner{
     border-top: 1px solid red;
@@ -46,11 +38,7 @@
     margin-top: 40px;
 }
 .right-banner img{
-    box-shadow: 10px 10px 5px #ccc;
-    -moz-box-shadow: 10px 10px 5px #ccc;
-    -webkit-box-shadow: 10px 10px 5px #ccc;
-    -khtml-box-shadow: 10px 10px 5px #ccc;
-    border:2px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     width: 100%;
 }
 .items-content{
@@ -60,12 +48,7 @@
 }
 .items-content img{
     margin: 40px 40px 0px 0px;
-    box-shadow: 10px 10px 5px #ccc;
-    -moz-box-shadow: 10px 10px 5px #ccc;
-    -webkit-box-shadow: 10px 10px 5px #ccc;
-    -khtml-box-shadow: 10px 10px 5px #ccc;
-    border:2px solid #fff;
-    
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 
 }
 .items-content div{
@@ -95,11 +78,8 @@
     margin-top: 50px;
 }
 .left-introduce img{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     width: 100%;
-    box-shadow: 10px 10px 5px #ccc;
-    -moz-box-shadow: 10px 10px 5px #ccc;
-    -webkit-box-shadow: 10px 10px 5px #ccc;
-    -khtml-box-shadow: 10px 10px 5px #ccc;
 }
 .left-introduce div{
     text-transform: uppercase; font-weight:bold; font-size:20px;
@@ -110,11 +90,8 @@
     display: flex;
 }
 .right-introduce img{
-    box-shadow: 10px 10px 5px #ccc;
-    -moz-box-shadow: 10px 10px 5px #ccc;
-    -webkit-box-shadow: 10px 10px 5px #ccc;
-    -khtml-box-shadow: 10px 10px 5px #ccc;
-    margin: 0px 40px 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin: 0px 20px 10px 20px;
 }
 @media only screen and (max-width: 768px) {
     .main-content{
@@ -128,4 +105,16 @@
 }
 .center-banner-top:hover{
     cursor: pointer;
+}
+@media only screen and (max-width: 429px) {
+    .center-banner-bottom{
+        display: unset;
+        margin-top: 30px;
+    }
+    .center-banner-bottom div{
+        margin-top: 10px;
+    }
+}
+/* .items-left-banner{
+    border: 1px solid black; */
 }

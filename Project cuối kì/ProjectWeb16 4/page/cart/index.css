@@ -1,0 +1,18 @@
+.left-li {
+  max-height: 86px;
+  max-width: 130px;
+}
+
+.left-li img {
+  width: 100%;
+}
+#wrap-cart li {
+  max-height: 86px;
+  display: flex;
+}
+.right-li{
+  
+}
+.right-li div{
+  margin-top: 40px;
+}
