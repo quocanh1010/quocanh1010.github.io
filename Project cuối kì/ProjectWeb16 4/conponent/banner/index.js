@@ -117,6 +117,6 @@ banner.append(`
 
 
 `)
-function myFunction() {
-    location.replace("https://quocanh1010.github.io/Project%20cu%E1%BB%91i%20k%C3%AC/ProjectWeb16%204/page/post/index.html")
-  }
+// function myFunction() {
+//     location.replace("https://quocanh1010.github.io/Project%20cu%E1%BB%91i%20k%C3%AC/ProjectWeb16%204/page/post/index.html")
+//   }
