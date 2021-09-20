@@ -98,11 +98,9 @@ const showTitle = (title, idShow) => {
 showTitle('Áo Đội Tuyển', 'show-item-1')
 
 const setLocal = (index, product) => {
-    
-    debugger
     let item = product[index]
     localStorage.setItem('detail-data', JSON.stringify(item))
-    location.replace('file:///Users/buiquocanh/Documents/GitHub/quocanh1010.github.io/Project%20cuo%CC%82%CC%81i%20ki%CC%80/ProjectWeb16%204/page/detail/index.html')
+    location.replace('https://quocanh1010.github.io/Project%20cu%E1%BB%91i%20k%C3%AC/ProjectWeb16%204/page/detail/index.html')
 
 }
 

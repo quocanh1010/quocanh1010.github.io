@@ -74,6 +74,5 @@ $(document).click((event)=> {
     } 
 })
 function myFunction() {
-    debugger
-    location.replace("file:///Users/buiquocanh/Documents/GitHub/quocanh1010.github.io/Project%20cuo%CC%82%CC%81i%20ki%CC%80/ProjectWeb16%204/category/index.html")
+    location.replace("https://quocanh1010.github.io/Project%20cu%E1%BB%91i%20k%C3%AC/ProjectWeb16%204/category/index.html")
   }

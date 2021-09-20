@@ -66,7 +66,7 @@ wrap_detail.append(`
         <input type="text" name="quantity" value="1" class="qty">
         <div class="qtyplus">+</div>
     </form>
-    <a href="#" class="round-black-btn">Add to Cart</a>
+    <a href="#"  onclick="myFunction() class="round-black-btn">Add to Cart</a>
       </div>
     </div>
   </div>
@@ -78,4 +78,8 @@ wrap_detail.append(`
 </div>
 </div>
 `)
+function myFunction() {
+  location.replace("https://quocanh1010.github.io/Project%20cu%E1%BB%91i%20k%C3%AC/ProjectWeb16%204/page/cart/index.html")
+}
+
 
