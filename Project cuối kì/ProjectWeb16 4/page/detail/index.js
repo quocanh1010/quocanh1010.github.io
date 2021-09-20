@@ -66,7 +66,7 @@ wrap_detail.append(`
         <input type="text" name="quantity" value="1" class="qty">
         <div class="qtyplus">+</div>
     </form>
-    <a href="#"  onclick="myFunction() class="round-black-btn">Add to Cart</a>
+    <a href="#"  onclick="myFunction()" class="round-black-btn">Add to Cart</a>
       </div>
     </div>
   </div>
