@@ -61,13 +61,13 @@ wrap_detail.append(`
         </div>
       </div>
       <div class="product-count">
-        <label for="size">Quantity</label>
+        <label for="size">Số Lượng</label>
         <form action="#" class="display-flex">
         <div class="qtyminus">-</div>
         <input type="text" name="quantity" value="1" class="qty">
         <div class="qtyplus">+</div>
     </form>
-    <a href="#"  onclick="myFunction()" class="round-black-btn">Add to Cart</a>
+    <a href="#"  onclick="myFunction()" class="round-black-btn">Mua Ngay</a>
       </div>
     </div>
   </div>
