@@ -114,6 +114,17 @@
     .center-banner-bottom div{
         margin-top: 10px;
     }
+    .center-banner-top img{
+        height: auto;
+    }
+    .center-banner-bottom img{
+        width: 100%;
+        height: auto;
+    }
+    .items-content div{
+        font-size: 14px;
+        margin: 40px 0px 0px 0px
+    }
 }
 /* .items-left-banner{
     border: 1px solid black; */

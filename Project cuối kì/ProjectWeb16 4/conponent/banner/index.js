@@ -1,7 +1,8 @@
 let banner = $('#banner')
 
 banner.append(`
-<body><div class="container">
+<body>
+<div class="container">
 <div class="row">
     <div class="col-sm-3 col-md-2">
 <div class="left-banner"><div style="color: red; font-size: 24px;">Tin Nóng</div>

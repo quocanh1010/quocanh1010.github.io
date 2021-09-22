@@ -157,3 +157,9 @@ button:focus {
       padding-left: 20px
   }
 }
+@media screen and (max-width: 987px) {
+  .radio-group{
+    display: flex;
+    margin-bottom: 10px;
+  }
+}

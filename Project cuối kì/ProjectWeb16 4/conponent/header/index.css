@@ -1,182 +1,250 @@
-body{
+/* body {
+    align-items: center;
+    background: #524fae;
+    display: flex;
+    height: 500vh;
+    justify-content: center;
+    margin: 0;
+    padding-top: 150px;
+    width: 100vw;
+} */
+.Header {
+    align-items: center;
+    background: red;
+    /* border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px; */
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.Header.has-mobile-button .MobileNav-trigger {
+    display: flex;
+}
+.Header-inner {
+    display: flex;
+    justify-content: space-between;
+    transition: height 0.4s ease;
+    width: 80vw;
+}
+.Header .logo {
+    align-self: center;
+    display: flex;
+    height: 80px;
+    margin-right: 60px;
+    width: 200px;
+}
+.Header .logo img {
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+}
+.Header-nav {
+    display: flex;
+    flex-wrap: wrap;
+    height: 0;
+    justify-content: space-between;
+    max-height: 105px;
+    max-width: 940px;
+    overflow: hidden;
+    width: 100%;
+}
+.Header-nav-item {
+    align-items: center;
+    align-self: center;
+    color: darkblue;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 100%;
+    line-height: 32px;
+    margin: 0 40px;
+    transition: font-size 0.4s ease, padding 0.4s ease;
+}
+.Header-nav-item:last-child {
+    margin-right: 0;
+}
+.Header-nav-item a {
+    color: black;
+    text-decoration: none;
+}
+.Header-nav-item:hover {
+    color: darkblue !important;
+}
+.Header-nav:hover .Header-nav-item {
+    color: rgba(0, 0, 139, 0.5);
+}
+@media screen and (min-width: 481px) {
+    .Header-nav {
+        height: auto;
+   }
+}
+
+.MobileNav {
+    height: calc(100% - 55px);
+    left: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 70px;
+    width: 100%;
+    z-index: 9;
+}
+.MobileNav-inner {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 100%;
+    overflow-y: scroll;
+    position: absolute;
+    right: 0;
+    transform: translate(0, -105%);
+    transition: transform 0.4s ease, visibility 0.4s ease;
+    visibility: hidden;
+    width: 100%;
+}
+.MobileNav-inner .Button {
+    letter-spacing: 1px;
+    line-height: 3.8;
+    margin: 20px -8px 20px;
+    width: 100%;
+}
+.MobileNav-inner .MobileNav-trigger {
+    display: none;
+    position: absolute;
+    right: 38px;
+    top: 30px;
+}
+.MobileNav-item {
+    color: navy;
+    display: none;
+    font-family: Lato, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 26px 0;
+    transition: opacity 0.3s ease;
+}
+.MobileNav-item.is-visible {
+    display: block;
+}
+.MobileNav-item-title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.MobileNav-item-title a {
+    color: black;
+    flex-shrink: 0;
+    text-decoration: none;
+}
+.MobileNav-item-title span {
+    min-width: 32px;
+    position: relative;
+    width: 100%;
+}
+.MobileNav-item-title span::after {
+    border-left: 2px solid lightgray;
+    border-top: 2px solid lightgray;
+    content: "";
+    display: block;
+    height: 14px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-75%) rotate(225deg);
+    transition: transform 0.2s ease;
+    width: 14px;
+}
+.MobileNav-overlay {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: background 0.4s ease;
+    width: 100%;
+}
+.MobileNav-trigger {
+    align-items: center;
+    align-self: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+    flex-shrink: 0;
     height: 100%;
 }
-div#info-user {
-    display: flex;
-    background:red;
-    padding: 28px 92px 28px 21px;
+.MobileNav-trigger-inner {
+    height: 12px;
+    position: relative;
+    width: 24px;
 }
-.logo img{
-    height: 100px;
-}
-
-div#info-user > .left {
-    width:75%;
-    display: flex;
-    align-items: center;
-}
-
-div#info-user > .right {
-    width: 25%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-
-}
-
-.search-input {/* flex: 1 1 auto; */flex: 1;display: flex;padding-right: 50px;}
-
-.search-input input {
-    height: 44px;
-    flex: 1;
-    max-width: 340px;
-    /* width: 340px; */
-}
-
-.search-input button {
-    height: 44px;
-    width: 91px;
-    border-radius: 0 5px 5px 0;
-}
-
-/* div#info-user .right .right .up {font-family: Crimson Text;font-style: normal;font-weight: normal;font-size: 16px;line-height: 22px;
-
-PM1color: #D80A0A;} */
-
-/* div#info-user .right .cart {
-    display: flex;
-}
-
-div#info-user > .right .left button {
-    width: 50px;
-    height: 50px;
-}
-
-div#info-user .right .right .down {
-    font-family: Crimson Text;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 33px;
-    color: #FFFFFF;
-} */
-
-
-
-/* .user-login {
-    margin-right: 123px;
-}
-
-.user-login .up {
-    font-family: Crimson Text;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-
-PM1
-    color: #D80A0A;
-} */
-
-/* .user-login .down {
-    font-family: Crimson Text;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 33px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-.user-log-in-icon{
-    display: none;
-}
-.user-log-in-tex{
-    display: block;
-} */
-.toogle-menu-ipad{
-    display: none;
-}
-@media only screen and (max-width: 992px) {
-
-    /* .user-log-in-icon{
-        display: block;
-    } */
-    .toogle-menu-ipad{
-        display: block;
-        display: block;
-        color: white;
-        /* transform: translateY(12px); */
-        margin: 0 5px;
-    }
-    /* .user-log-in-text{
-        display: none;
-    } */
-  }
-
-
-  /* ---------------------------------------------------- this is menu---------------------------------------------------- */
-  ul.wrap-ul {
-    /* margin: 20px;
-    padding: 20px; */
-    display: flex;
+.MobileNav-trigger-inner::after {
+    background: #524fae;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform-origin: 0% 50%;
+    transition: transform 0.2s ease;
     width: 100%;
-    height: 50px;
 }
-
-ul.wrap-ul li.item-menu {
-    list-style: none;
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Crimson Text;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    color: white;
-    margin-right: 10px;
+.MobileNav-trigger-inner::before {
+    background: #524fae;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transform-origin: 0% 50%;
+    transition: transform 0.2s ease;
+    width: 100%;
 }
-
-li.item-menu .item-menu {
-    flex-grow: 1;
+.MobileNav-trigger.is-active .MobileNav-trigger-inner::after {
+    transform: translateY(-4px) rotate(45deg);
 }
-
-div#main-menu {
-    box-shadow: 5px 4px 24px rgb(0 0 0 / 8%);
+.MobileNav-trigger.is-active .MobileNav-trigger-inner::before {
+    transform: translateY(3px) rotate(-45deg);
 }
-
-ul.wrap-ul li.item-menu:hover {
-    cursor: pointer;
-    
-}
-@media only screen and (max-width: 992px) {
-
-    div#main-menu{
-        position: absolute;
-        width: 36vw;
-        /* height: -1000px; */
-        left: -100%;
-        background:rgb(219, 60, 60);
-        z-index: 2;
-    }
-    ul.wrap-ul {
-        display: unset;
-    }
-    ul.wrap-ul li.item-menu {
-        padding: 5px 0px 5px 20px;
-        justify-content: flex-start;
-        align-items: center;
-    }
-  }
-@media only screen and (max-width: 696px) {
-    .search-input{
+@media screen and (min-width: 481px) {
+    .MobileNav {
+        height: 100%;
+        top: 0;
+        z-index: 11;
+   }
+    .MobileNav-inner {
+        padding-top: 90px;
+        transform: translate(100%, 0);
+        width: 375px;
+   }
+    .MobileNav-inner .MobileNav-trigger {
+        display: block;
+   }
+    .MobileNav-trigger {
         display: none;
-    }
-    div#main-menu{
-        position: absolute;
-        width: 36vw;
-        height: -100%;
-        left: -100%;
-        background:rgb(219, 60, 60);
-    }
-}  
+   }
+}
+@media screen and (min-width: 871px) {
+    .MobileNav-inner {
+        padding-top: 160px;
+   }
+}
+.is-mobilenav-open {
+    overflow-y: hidden;
+}
+.is-mobilenav-open .MobileNav {
+    pointer-events: all;
+}
+.is-mobilenav-open .MobileNav-inner {
+    transform: translate(0, 0);
+    visibility: visible;
+}
+.is-mobilenav-open .MobileNav-overlay {
+    background: rgba(0, 0, 0, 0.25);
+}
