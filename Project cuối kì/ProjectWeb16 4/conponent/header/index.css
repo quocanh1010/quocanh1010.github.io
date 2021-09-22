@@ -56,7 +56,7 @@
 .Header-nav-item {
     align-items: center;
     align-self: center;
-    color: darkblue;
+    color: black;
     display: flex;
     flex-shrink: 0;
     font-family: Lato, sans-serif;
