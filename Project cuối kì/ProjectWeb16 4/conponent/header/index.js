@@ -9,7 +9,7 @@ header.append(`<div class="MobileNav" data-mobile-nav>
   <ul class="MobileNav-nav" data-mobile-nav-list>
     <li class="MobileNav-item" data-mobile-nav-item="1">
       <div class="MobileNav-item-title">
-        <a href="#"><i class="fas fa-home"></i>Trang Chủ</a>
+        <a href="https://quocanh1010.github.io/Project%20cu%E1%BB%91i%20k%C3%AC/ProjectWeb16%204/index.html"><i class="fas fa-home"></i>Trang Chủ</a>
       </div>
     </li>
     <li class="MobileNav-item" data-mobile-nav-item="2">

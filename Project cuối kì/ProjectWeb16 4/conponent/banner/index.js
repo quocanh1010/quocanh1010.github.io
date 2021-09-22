@@ -15,11 +15,11 @@ banner.append(`
 </div>
 <div class="col-sm-9 col-md-8">
 <div class="center-banner">
-    <div class="center-banner-top">
+    <a style="text-decoration: none; color:inherit;" href="https://quocanh1010.github.io/Project%20cu%E1%BB%91i%20k%C3%AC/ProjectWeb16%204/page/post/" class="center-banner-top">
     <div><img src="./img/Rectangle 41.png" alt="">
         <div style="text-transform: uppercase; font-weight:bold; font-size:20px">Hủy diệt Everton, Man Utd tình cờ phát hiện bộ đôi tiền vệ trong mơ</div>
         <div>Man United vừa có thắng lợi 4-0 ấn tượng trước Everton trong trận giao hữu cuối cùng của mùa hè 2021.</div>
-    </div></div>
+    </div></a>
     <div class="center-banner-bottom">
         <div style="width:50%">
         <img src="./img/Rectangle 49.png" alt="">
