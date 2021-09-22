@@ -13,6 +13,7 @@ wrap_detail.append(`
 <div class="container">
 <div class="heading-section">
 </div>
+<div class="gg"></div>
 <div class="row">
   <div class="col-md-6">
           <div class="left-detail">

@@ -81,6 +81,7 @@ const showTitle = (title, idShow) => {
     category.append(`
     
     <div id="all-product">
+    <div class="gg"></div>
     <div class="name-category">
         ${title}
     </div>
