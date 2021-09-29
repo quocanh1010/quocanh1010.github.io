@@ -26,11 +26,14 @@
     }
 }
 .name{
-    color:seashell;
+    color:tomato;
 }
 .all-product{
     margin-top: 40px;
 }
 .gg{
     height: 80px;
+}
+.item-card div{
+    text-align: center;
 }
