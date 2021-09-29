@@ -13,6 +13,6 @@ footer.append(`    <div class="main-footer">
     <li><b>LIÊN HỆ:</b></li>
     <li><i class="fas fa-map-marker-alt"></i> Địa chỉ: 87 Tam Trinh , Hoàng Mai , Hà Nội>
     <li><i class="fas fa-phone-alt"></i> Điện thoại: 092-881-5697.</li>    
-    <li><i class="far fa-envelope"></i> Email: quocanh.101001@gmail.com</li>
+    <li> Email: quocanh.101001@gmail.com</li>
 </ul>
 `)

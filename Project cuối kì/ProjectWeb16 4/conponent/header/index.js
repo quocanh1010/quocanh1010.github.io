@@ -43,7 +43,7 @@ header.append(`<div class="MobileNav" data-mobile-nav>
   </div>
   <nav class="Header-nav" data-nav>
     <div class="Header-nav-item" data-nav-item="1">
-      <a href="https://quocanh1010.github.io/Project%20cu%E1%BB%91i%20k%C3%AC/ProjectWeb16%204/index.html"><i class="fas fa-home"></i>Trang Chủ</a>
+      <a href="https://quocanh1010.github.io/Project%20cu%E1%BB%91i%20k%C3%AC/ProjectWeb16%204/index.html">Trang Chủ</a>
     </div>
     <div class="Header-nav-item" data-nav-item="2">
       <a href="#">Mới nhất</a>
