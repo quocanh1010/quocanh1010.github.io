@@ -229,6 +229,9 @@
     .MobileNav-trigger {
         display: none;
    }
+   .MobileNav-nav{
+    margin-left: 50px;
+   }
 }
 @media screen and (min-width: 871px) {
     .MobileNav-inner {

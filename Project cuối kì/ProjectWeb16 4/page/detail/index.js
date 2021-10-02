@@ -20,7 +20,7 @@ wrap_detail.append(`
         <div class="container">
         <input type="checkbox" id="zoomCheck">
         <label for="zoomCheck">
-        <img src="../img/image 31.png" alt="">
+        <img src="./img/image 31.png" alt="">
         </label>
       </div>
             <div style="margin-left:20px;">

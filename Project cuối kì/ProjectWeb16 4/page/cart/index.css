@@ -204,8 +204,8 @@ button:focus {
 }
 /* Apply clearfix in a few places */
 /* Apply dollar signs */
- .product .product-price:before, .product .product-line-price:before, .totals-value:before {
-	 content: '';
+ .product .product-price:after, .product .product-line-price::after, .totals-value::after {
+	 content: 'Đ';
 }
 /* Body/Header stuff */
  body {
@@ -354,7 +354,7 @@ button:focus {
 		 margin-top: 10px;
 	}
 	 .product .product-line-price:before {
-		 content: 'Item Total: ';
+		 content: 'Tổng tiền :';
 	}
 	 .totals .totals-item label {
 		 width: 60%;
@@ -375,5 +375,18 @@ input[type=text] {
 }
 .infor{
   margin-top: 40px;
+}
+@media screen and (max-width: 375px) {
+	.product .product-line-price:before {
+		content: 'Tổng tiền:';
+   }
+   .product .product-line-price{
+	   font-size: 12px;
+	   display: flex;
+	   width: 30%;
+   }
+}
+.product-quantity input{
+	height: 30px;
 }
  
