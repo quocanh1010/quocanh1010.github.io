@@ -141,16 +141,16 @@ showProduct(business_product, 'show-item-2', 'business_product')
 $('.more').click(function() {    
 
     let name = this.parentElement.getElementsByClassName("name")[0].textContent;
-    
-    
     localStorage.setItem('name', name)
+
     let price = this.parentElement.getElementsByClassName("price")[0].textContent;
-    
-    
     localStorage.setItem('price', price)
+
     let des = this.parentElement.getElementsByClassName("des")[0].textContent;
-    
-    
     localStorage.setItem('des', des)
+
+    let image = this.parentElement.getElementsByClassName("image")[0].children[0].src;
+    localStorage.setItem('img', image)
+
     location.replace('https://quocanh1010.github.io/Project%20cu%E1%BB%91i%20k%C3%AC/ProjectWeb16%204/page/detail/index.html')
 })

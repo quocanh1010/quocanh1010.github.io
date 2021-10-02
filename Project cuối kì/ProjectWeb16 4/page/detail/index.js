@@ -9,6 +9,7 @@ let default_data = {
 let data_detail = localStorage.getItem('name') || default_data
 let data_detail_des = localStorage.getItem('des') || default_data
 let data_detail_price = localStorage.getItem('price') || default_data
+let data_detail_image = localStorage.getItem('img') || default_data
 let wrap_detail = $('#wrap-detail')
 
 wrap_detail.append(`
@@ -20,7 +21,7 @@ wrap_detail.append(`
         <div class="container">
         <input type="checkbox" id="zoomCheck">
         <label for="zoomCheck">
-        <img src="./img/image 31.png" alt="">
+        <img src="${data_detail_image}" alt="" >
         </label>
       </div>
             <div style="margin-left:20px;">
