@@ -37,3 +37,6 @@
 .item-card div{
     text-align: center;
 }
+.des{
+    display: none;
+}

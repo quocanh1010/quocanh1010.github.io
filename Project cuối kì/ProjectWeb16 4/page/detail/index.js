@@ -6,7 +6,9 @@ let default_data = {
   more:'Xem chi tiết >',
 }
 
-let data_detail = JSON.parse(localStorage.getItem('detail-data')) || default_data
+let data_detail = localStorage.getItem('name') || default_data
+let data_detail_des = localStorage.getItem('des') || default_data
+let data_detail_price = localStorage.getItem('price') || default_data
 let wrap_detail = $('#wrap-detail')
 
 wrap_detail.append(`
@@ -18,7 +20,7 @@ wrap_detail.append(`
         <div class="container">
         <input type="checkbox" id="zoomCheck">
         <label for="zoomCheck">
-        <img src="./img/image 31.png" alt="">
+        <img src="../img/image 31.png" alt="">
         </label>
       </div>
             <div style="margin-left:20px;">
@@ -28,7 +30,7 @@ wrap_detail.append(`
 <div class="col-md-6">
   <div class="product-dtl">
     <div class="product-info">
-      <div class="product-name">${data_detail.name}</div>
+      <div class="product-name">${data_detail}</div>
       <div class="reviews-counter">
     <div class="rate">
         <input type="radio" id="star5" name="rate" value="5" checked />
@@ -44,9 +46,9 @@ wrap_detail.append(`
       </div>
     <span>3 Reviews</span>
   </div>
-      <div class="product-price-discount"><span>${data_detail.price}</span><span class="line-through">120.000đ</span></div>
+      <div class="product-price-discount"><span>${data_detail_price}</span><span class="line-through">120.000đ</span></div>
     </div>
-    <p>Đội tuyển bóng đá quốc gia Argentina là đội tuyển bóng đá thuộc bảo hộ của Hiệp hội bóng đá Argentina và đại diện cho Argentina trên bình diện quốc tế. Argentina đã 2 lần vô địch thế giới vào các năm 1978 và 1986 cùng 15 lần vô địch Nam Mỹ</p>
+    <p>${data_detail_des}</p>
     <div class="row">
       <div class="col-md-6">
         <label for="size">Size</label>
@@ -65,7 +67,7 @@ wrap_detail.append(`
       <input type="text" name="quantity" value="1" class="qty">
       <div class="qtyplus">+</div>
   </form>
-  <a href="#"  onclick="myFunction()" class="round-black-btn">Mua Ngay</a>
+  <a href="#"  onclick="myFunctionCart()" class="round-black-btn">Mua Ngay</a>
     </div>
   </div>
 </div>
@@ -76,8 +78,6 @@ wrap_detail.append(`
 </div>
 </div>
 `)
-function myFunction() {
+function myFunctionCart() {
 location.replace("https://quocanh1010.github.io/Project%20cu%E1%BB%91i%20k%C3%AC/ProjectWeb16%204/page/cart/index.html")
 }
-
-
