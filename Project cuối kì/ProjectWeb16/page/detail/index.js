@@ -5,12 +5,12 @@ let default_data = {
   price: '80.000đ',
   more:'Xem chi tiết >',
 }
-
-let data_detail = localStorage.getItem('name') || default_data
+let data_detail_name = localStorage.getItem('name') || default_data
 let data_detail_des = localStorage.getItem('des') || default_data
 let data_detail_price = localStorage.getItem('price') || default_data
 let data_detail_image = localStorage.getItem('img') || default_data
 let wrap_detail = $('#wrap-detail')
+
 
 wrap_detail.append(`
 <div class="container">
@@ -21,7 +21,7 @@ wrap_detail.append(`
         <div class="container">
         <input type="checkbox" id="zoomCheck">
         <label for="zoomCheck">
-        <img src="${data_detail_image}" alt="" >
+        <img class="product-img"src="${data_detail_image}" alt="" >
         </label>
       </div>
             <div style="margin-left:20px;">
@@ -31,7 +31,7 @@ wrap_detail.append(`
 <div class="col-md-6">
   <div class="product-dtl">
     <div class="product-info">
-      <div class="product-name">${data_detail}</div>
+      <div class="product-name">${data_detail_name}</div>
       <div class="reviews-counter">
     <div class="rate">
         <input type="radio" id="star5" name="rate" value="5" checked />
@@ -47,9 +47,9 @@ wrap_detail.append(`
       </div>
     <span>3 Reviews</span>
   </div>
-      <div class="product-price-discount"><span>${data_detail_price}</span><span class="line-through">120.000đ</span></div>
+      <div class="product-price-discount"><span>${data_detail_price}</span><span class="line-through"></span></div>
     </div>
-    <p>${data_detail_des}</p>
+    <p class="product-des">${data_detail_des}</p>
     <div class="row">
       <div class="col-md-6">
         <label for="size">Size</label>
@@ -68,7 +68,7 @@ wrap_detail.append(`
       <input type="text" name="quantity" value="1" class="qty">
       <div class="qtyplus">+</div>
   </form>
-  <a href="#"  onclick="myFunctionCart()" class="round-black-btn">Mua Ngay</a>
+  <a href="#" class="round-black-btn">Mua Ngay</a>
     </div>
   </div>
 </div>
@@ -79,6 +79,19 @@ wrap_detail.append(`
 </div>
 </div>
 `)
-function myFunctionCart() {
-location.replace("https://quocanh1010.github.io/Project%20cu%E1%BB%91i%20k%C3%AC/ProjectWeb16%204/page/cart/index.html")
-}
+$('.round-black-btn').click(function() {    
+
+  let productName = document.getElementsByClassName("product-name")[0].textContent;
+  localStorage.setItem('product-name', productName)
+
+  let productPriceDiscount = document.getElementsByClassName("product-price-discount")[0].textContent;
+  localStorage.setItem('product-price-discount', productPriceDiscount)
+
+  let productDes = document.getElementsByClassName("product-des")[0].textContent;
+  localStorage.setItem('product-des', productDes)
+
+  let productImg = document.getElementsByClassName("product-img")[0].src;
+  localStorage.setItem('product-img', productImg)
+
+  location.replace('https://quocanh1010.github.io/Project%20cu%E1%BB%91i%20k%C3%AC/ProjectWeb16%204/page/cart/index.html')
+})

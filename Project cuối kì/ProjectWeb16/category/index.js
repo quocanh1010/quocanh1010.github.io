@@ -89,14 +89,14 @@ let category = $('#category')
 
 const showTitle = (title, idShow) => {
     category.append(`
+    <div class="gg"></div>
     
     <div id="all-product">
-    <div class="gg"></div>
     <div class="name-category">
         ${title}
     </div>
     </div>
-
+    
     <div class="show-item">
     <div class="container">
         <div class="row" id="${idShow}">

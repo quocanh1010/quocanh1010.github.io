@@ -29,17 +29,6 @@ body {
   color: #FF5252
 }
 
-.book,
-.book-img {
-  width: 120px;
-  height: 180px;
-  border-radius: 5px
-}
-
-.book {
-  margin: 20px 15px 5px 15px
-}
-
 .border-top {
   border-top: 1px solid #EEEEEE !important;
   margin-top: 20px;
@@ -204,7 +193,7 @@ button:focus {
 }
 /* Apply clearfix in a few places */
 /* Apply dollar signs */
- .product .product-price:after, .product .product-line-price::after, .totals-value::after {
+ .product , .product .product-line-price::after, .totals-value::after {
 	 content: 'Đ';
 }
 /* Body/Header stuff */
@@ -389,4 +378,9 @@ input[type=text] {
 .product-quantity input{
 	height: 30px;
 }
- 
+.info{
+	padding: 20px 120px 0px 20px;
+}
+.address{
+	display: flex;
+}
