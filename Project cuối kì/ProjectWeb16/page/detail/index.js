@@ -93,5 +93,5 @@ $('.round-black-btn').click(function() {
   let productImg = document.getElementsByClassName("product-img")[0].src;
   localStorage.setItem('product-img', productImg)
 
-  location.replace('https://quocanh1010.github.io/Project%20cu%E1%BB%91i%20k%C3%AC/ProjectWeb16%204/page/cart/index.html')
+  location.replace('https://quocanh1010.github.io/Project%20cu%E1%BB%91i%20k%C3%AC/ProjectWeb16/page/cart/index.html')
 })

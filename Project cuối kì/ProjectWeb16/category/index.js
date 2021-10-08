@@ -152,5 +152,5 @@ $('.more').click(function() {
     let image = this.parentElement.getElementsByClassName("image")[0].children[0].src;
     localStorage.setItem('img', image)
 
-    location.replace('https://quocanh1010.github.io/Project%20cu%E1%BB%91i%20k%C3%AC/ProjectWeb16%204/page/detail/index.html')
+    location.replace('https://quocanh1010.github.io/Project%20cu%E1%BB%91i%20k%C3%AC/ProjectWeb16/page/detail/index.html')
 })
