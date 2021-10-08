@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../../conponent/header/index.css">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="../../conponent/footer/index.css">
+    <link rel='stylesheet' href='https://cdn.rawgit.com/t4t5/sweetalert/v0.2.0/lib/sweet-alert.css'>
 </head>
 <div id="header">
 </div>
@@ -95,8 +96,10 @@
           <div class="totals-value" id="cart-total">177.000</div>
         </div>
       </div>
-          
-          <button class="checkout">Thanh Toán</button>
+            <div class="example">
+              <button id="b3" class="checkout">Thanh toán</button>
+            </div>
+  
     
     </div>
     
@@ -112,6 +115,7 @@
     <script src="./index.js"></script>
     <script src="../../conponent/footer/index.js"></script>
     <script src="vietnamlocalselector.js"></script>
+    <script src='https://cdn.rawgit.com/t4t5/sweetalert/v0.2.0/lib/sweet-alert.min.js'></script>
 <script>
 	var localpicker = new LocalPicker({
 		province: "ls_province",

@@ -384,3 +384,26 @@ input[type=text] {
 .address{
 	display: flex;
 }
+.example button {
+	float: right;
+	background-color: red;
+	color: white;
+	border: none;
+	box-shadow: none;
+	font-size: 17px;
+	font-weight: 500;
+	font-weight: 600;
+	border-radius: 3px;
+	padding: 15px 35px;
+	margin: 26px 0px 0 5px;
+	cursor: pointer; 
+  }
+  .example button:focus{
+	outline: none; 
+  }
+  .example button:hover{
+	background-color: tomato; 
+  }
+  .example button:active{
+	background-color: tomato; 
+  }

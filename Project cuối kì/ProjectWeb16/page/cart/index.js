@@ -108,11 +108,9 @@ function removeItem(removeButton)
     recalculateCart();
   });
 }
-document.getElementsByClassName('checkout')[0].addEventListener('click',purchaseClicked)
-  
-function purchaseClicked() {
-  alert('Cam on vi da mua hang')
-}
+document.getElementById('b3').onclick = function(){
+	swal("Cảm ơn vì đã mua hàng", "Bấm ok để tiếp tục", "success");
+};
     var options = {
       /*
           HTML Selector. You can pass value of name, id or class. 
