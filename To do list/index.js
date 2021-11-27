@@ -38,8 +38,7 @@ class TodoApp extends React.Component {
         
         return item;
       });
-      
-      // State Updates are Merged
+     
       this.setState({
         items: [].concat(updatedItems)
       });
