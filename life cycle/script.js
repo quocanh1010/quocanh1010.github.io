@@ -75,7 +75,7 @@ window.onload = function () {
   };
   
   function yesClick() {
-    alert("tuan sau di choi nha");
+    alert("Tuần sau đi chơi nhaaaaa");
   }
   
   function noHover() {
